@@ -9,11 +9,29 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Input a and b are connect to the AND gate, input c and d are connected to the NAND gate, input e and f are connected to the OR gate and input g is connect to the NOT gate.
 
 ## How to test
 
-Explain how to use your project
+INPUT a AND b |   output   |        INPUT e OR f |   output    |
+   0     0    |      0     |           0     0   |      0      |
+   1     0    |      0     |           1     0   |      1      |
+   0     1    |      0     |           0     1   |      1      | 
+   1     1    |      1     |           1     1   |      1      |
+   
+
+INPUT c NAND d |   output   |       INPUT g      |    ouput    |
+    0     0    |      1     |             0      |      0      |         
+    1     0    |      1     |             1      |      0      |
+    0     1    |      1     |
+    1     1    |      0     |
+
+  
+
+    
+
+
+
 
 ## External hardware
 
