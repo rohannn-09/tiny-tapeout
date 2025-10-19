@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
   wokwi_id:        445254813154997249
-  title:        ""      "Tiny Tapeout Gates"
-  author:       ""      "Rohan Chopra"
-  discord:      ""      ""
-  description:  ""      "Uses AND, OR, NAND and NOT gates to output when conditions are met."
+  title:             "Tiny Tapeout Gates"
+  author:       "Rohan Chopra"
+  discord:     ""
+  description:   "Uses AND, OR, NAND and NOT gates to output when conditions are met."
   language:     "Wokwi" 
   clock_hz:    10000
 
@@ -23,7 +23,7 @@ pinout:
   ui[4]: "input e"
   ui[5]: "input f"
   ui[6]: "input g"
-  ui[7]: ""
+  ui[7]: "input h"
 
   # Outputs
   uo[0]: "output and "
@@ -33,7 +33,7 @@ pinout:
   uo[4]: "output or "
   uo[5]: "output or "
   uo[6]: "output not"
-  uo[7]: ""
+  uo[7]: "output h "
 
   # Bidirectional pins
   uio[0]: ""
